@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_fragment"
+    app:startDestination="@id/principal">
+
+    <fragment
+        android:id="@+id/principal"
+        android:name="com.example.atmconsultoria.iu.principal.PrincipalFragment"
+        android:label="Principal"
+        tools:layout="@layout/fragment_principal"/>
+
+    <fragment
+        android:id="@+id/servicos"
+        android:name="com.example.atmconsultoria.iu.servicos.ServicosFragment"
+        android:label="Serviços"
+        tools:layout="@layout/fragment_servicos"/>
+
+    <fragment
+        android:id="@+id/clientes"
+        android:name="com.example.atmconsultoria.iu.clientes.ClientesFragment"
+        android:label="Cliente"
+        tools:layout="@layout/fragment_clientes"/>
+
+    <fragment
+        android:id="@+id/contato"
+        android:name="com.example.atmconsultoria.iu.contato.ContatoFragment"
+        android:label="contato"
+        tools:layout="@layout/fragment_contato"/>
+
+    <fragment
+        android:id="@+id/sobre"
+        android:name="com.example.atmconsultoria.iu.sobre.SobreFragment"
+        android:label="Sobre"
+        tools:layout="@layout/fragment_sobre"/>
+
+</navigation>
